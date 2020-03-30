@@ -41,14 +41,15 @@ sidebar:
 career-profile:
     title: Summary of Qualifications
     summary: |
-      -7+ years of experience in tech / SaaS
-      -8+ years of SEO experience
-      -8+ years digital marketing experience
-      -Expert level knowledge of SEO best practices, strategies, and tactics, along with SEO Audits, keyword research, competitive research, and content gap analysis
-      -Intermediate programming experience, including HTML, CSS, Javascript, Ruby, Python, and React Native
-      -Extensive experience using Salesforce CRM
-      -Demonstrated talent for identifying, scrutinizing, improving, and streamlining complex work processes through highly analytical thinking and analysis 
-      -Creative and tenacious problem solver
+      I have several years of experience in digital marketing including:
+        -7+ years of experience in tech / SaaS
+        -8+ years of SEO experience
+        -8+ years digital marketing experience
+        -Expert level knowledge of SEO best practices, strategies, and tactics, along with SEO Audits, keyword research, competitive research, and content gap analysis
+        -Intermediate programming experience, including HTML, CSS, Javascript, Ruby, Python, and React Native
+        -Extensive experience using Salesforce CRM
+        -Demonstrated talent for identifying, scrutinizing, improving, and streamlining complex work processes through highly analytical thinking and analysis 
+        -Creative and tenacious problem solver
 education:
     - degree: MBA in Business Administration
       university: Champlain College
@@ -83,7 +84,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-experiences:
+experience:
     - role: Freelance SEO Consultant
       time: 2012 - Present
       company: Freelance, Remote
