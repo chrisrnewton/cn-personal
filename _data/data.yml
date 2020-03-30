@@ -39,14 +39,16 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Summary of Qualifications
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      -7+ years of experience in tech / SaaS
+      -8+ years of SEO experience
+      -8+ years digital marketing experience
+      -Expert level knowledge of SEO best practices, strategies, and tactics, along with SEO Audits, keyword research, competitive research, and content gap analysis
+      -Intermediate programming experience, including HTML, CSS, Javascript, Ruby, Python, and React Native
+      -Extensive experience using Salesforce CRM
+      -Demonstrated talent for identifying, scrutinizing, improving, and streamlining complex work processes through highly analytical thinking and analysis 
+      -Creative and tenacious problem solver
 education:
     - degree: MBA in Business Administration
       university: Champlain College
@@ -82,88 +84,107 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Freelance SEO Consultant
+      time: 2012 - Present
+      company: Freelance, Remote
+      details: |
+        I've worked with dozens of clients over the years to improve their websites organic search performance. Some of my duties include:
+          - Conduct keyword research
+          - Conduct SEO Audits including technical, on-page, off-page
+          - Conduct content gap analysis
+          - Conduct competitive gap analysis
+          - Write meta titles, descriptions, h1 tags, and on-page content to improve search engine visibility and rankings for keywords
+          - Write long-form blog posts designed to get to page 1 for high-value keywords
+          - Implement Google Analytics and create automated reporting structure
+          - Launch website A/B tests
+          - Landing page creation
+          - Development of interactive content tools including calculators, quizzes, and more
+          
     - role: Inbound Marketing Manager
       time: 2018 - Present
       company: Klaviyo, Boston, MA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Klaviyo is a marketing automation platform allowing customers to send highly targeted and personalized communication to their customers via SMS and email messages.
+          - Manage all SEO and CRO Campaigns across Klaviyo's marketing website
+          - Increased organic traffic by 110% YoY
+          - Increased organic marketing qualified leads by 105% YoY
+          - Implement new enterprise SEO tool into daily workflow of marketing content team
+          - Conducted full on-page, off-page, and technical SEO audit, identifying several areas for improvement
+          - Deliver marketing and SEO training sessions to groups of 20+ marketing and sales reps
+          - Launch website A/B tests, improving sitewide conversion rate by 1.3% YoY
+          - Manage, develop, and implement cross-functional marketing campaigns and identifying opportunities for improvement
+          - Increase closed-won MRR from organic search by 159.21% (increase of $3,254,821)
+          
     - role: Inbound Consultant
       time: 2016 - 2018
       company: HubSpot, Cambridge, MA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        HubSpot is an Inbound Marketing and Sales software platform, offering tools for companies to grow their businesses
+          - Serve as strategic consultant to ~50 Priority Access and Ongoing Consulting clients across Basic, Pro and Enterprise subscriptions
+          - Develop deep relationships with clients to turn them into HubSpot brand advocates
+          - Maintained consistently high premier services NPS scores
+          - Presented at multiple team campaign showcase meetings, sharing SEO best practices with premier and professional services teams
+          - Develop creative alternatives to common customer issues, including developing a way to migrate contact activity history data from one HubSpot portal to another
+          - Write quarterly strategy reports for clients based around opportunities identified during consulting calls
+          - Grew product adoption to 8+ apps for 75% of install base
     - role: Senior Digital Advisor
       time: 2014 - 2016
       company: Dealer.com, Burlington, VT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Dealer.com is a provider of website, digital marketing, and CRM software to the automotive industry
+          - Served as primary point of contact for a portfolio of 150 key website and digital advertising clients
+          - Maintained net portfolio retention rate of 100% over 18 months
+          - Consultative selling and opportunity generation of $3000 in product sales monthly (average)
+          - Managed over $150,000 in monthly recurring ad spend across paid search, display, social and retargeting channels, grow advertising portfolio by 3% monthly
+          - Grew product portfolio at 2% ($3000) MoM through consultative selling of SaaS products and services
+          - Advised clients on digital marketing best practices, make proactive recommendations to improve campaign performance
+          - Coordinated resources amongst all departments to provide a quick turnaround for client issues
+          - Provided ideas for process improvement and other duties as assigned
+          - Served as mentor for junior level account managers and delegate tasks and duties to provide create a seamless and exceptional client experience
     - role: SEO Specialist
       time: 2013 - 2014
       company: Dealer.com, Burlington, VT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Dealer.com is a provider of website, digital marketing, and CRM software to the automotive industry
+          - Served as Project Manager coordinating setup of SEO campaigns and provision new SEO client accounts while maintaining high quality and fast turnaround times
+          - Redesigned client SEO questionnaire, increasing response rate from 23% to over 60%
+          - Helped to rework SEO initial optimization process to increase department efficiency and eliminate redundancies saving an average of 2 ½ hours per setup
+          - Copywriting: Created unique, high quality content articles for client blogs
+          - Participate in new client onboarding calls to educate non-technical clients on the SEO program and reinforce value
+          - Take part in various company learning opportunities: Successfully completed critical thinking, presentation skills, creative problem solving & decision making, Mentor Training, ELR 1, 2, and 3, and SEO certification courses
+          - Serve as a mentor for new SEO Dept. employees, helped onboard new analysts and train on initial optimizations
 projects:
     title: Tools
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below are several of the tools I am proficient in
     assignments:
       - title: Conductor Searchlight
-        link: "www.conductor.com"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: "https://www.conductor.com"
+        tagline: "An enterprise SEO tool providing keyword and topic research, competitive insights, and much more."
 
       - title: Moz
         link: "www.moz.com"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "An SEO tool providing keyword research and link building capabilities."
 
       - title: Google Ads
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Google Ads is the leading online advertising platform, providing search ads, display ads, retargeting, and more"
 
       - title: VWO & A/B Tasty
         link: "www.vwo.com"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Powerful A/B testing tools to help you improve conversion rates on your website"
 
       - title: HubSpot
         link: "www.hubspot.com"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A full platform of marketing, sales, and customer success tools to help you grow your business"
 
       - title: Klaviyo
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Powerful email and SMS marketing automation tools, built for ecommerce businesses of all sizes"
 
       - title: Salesforce
         link: "www.salesforce.com"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "The world's leading CRM platform"
         
 publications:
     title: Certifications
@@ -207,12 +228,18 @@ skills:
 
       - name: Javascript & jQuery
         level: 75%
-
-      - name: Conversion Rate Optimization & A/B Testing
-        level: 95%
+        
+      - name: Python & Django
+        level: 45%
+      
+      - name: Ruby
+        level: 85%        
 
       - name: Ruby on Rails
         level: 85%
+
+      - name: Conversion Rate Optimization & A/B Testing
+        level: 95%
 
       - name: Google Ads
         level: 60%
