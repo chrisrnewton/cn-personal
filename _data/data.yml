@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -27,12 +27,6 @@ sidebar:
     languages:
       - idiom: English
         level: Native
-
-      - idiom: 
-        level: 
-
-      - idiom: 
-        level: 
 
     interests:
       - item: Travelling
@@ -68,6 +62,17 @@ education:
     - degree: BS in Business Administration
       university: Champlain College
       time: 2005 - 2009
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Study Abroad
+      university: International College of Management, Sydney
+      time: 2008 - 2008
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -114,76 +119,113 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+    - role: SEO Specialist
+      time: 2013 - 2014
+      company: Dealer.com, Burlington, VT
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
 projects:
-    title: Projects
+    title: Tools
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
+      - title: Conductor Searchlight
+        link: "www.conductor.com"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
+      - title: Moz
+        link: "www.moz.com"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Google Ads
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
+      - title: VWO & A/B Tasty
+        link: "www.vwo.com"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: HubSpot
+        link: "www.hubspot.com"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+        - title: Klaviyo
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+        - title: Salesforce
+        link: "www.salesforce.com"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
 publications:
-    title: Publications
+    title: Certifications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+ 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: General Assembly Javascript Development Certification
+        link: https://generalassemb.ly/education/javascript-development
+        authors: General Assembly
+        conference: Issued June, 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: General Assembly Product Management Certification
+        link: https://generalassemb.ly/education/product-management/boston
+        authors: General Assembly
+        conference: Issued September, 2017        
+        
+      - title: Google Ads Search Certification
+        link: https://skillshop.exceedlms.com/student/award/43341677
+        authors: Google
+        conference: Expires December 18, 2020
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Google Analytics Individual Qualification Certification
+        link: https://skillshop.exceedlms.com/student/award/43340096
+        authors: Google
+        conference: Expires December 18, 2020
+
+      - title: HubSpot Inbound Certification
+        link: 
+        authors: HubSpot
+        conference: Expires July 23, 2021
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: SEO
         level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 75%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Conversion Rate Optimization & A/B Testing
         level: 95%
 
       - name: Ruby on Rails
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Google Ads
         level: 60%
-
+      
+      - name: HubSpot
+        level: 100%
+      
+      - name: Klaviyo
+        level: 100%
+        
+      - name: Salesforce
+        level: 100%
+                
+      - name: Wordpress
+        level: 100%
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
