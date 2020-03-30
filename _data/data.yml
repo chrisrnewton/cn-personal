@@ -157,11 +157,11 @@ projects:
         link: "www.hubspot.com"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-        - title: Klaviyo
+      - title: Klaviyo
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-        - title: Salesforce
+      - title: Salesforce
         link: "www.salesforce.com"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
         
