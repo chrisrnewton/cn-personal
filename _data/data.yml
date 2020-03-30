@@ -85,6 +85,8 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+      title: Experience
+
     - role: Freelance SEO Consultant
       time: 2012 - Present
       company: Freelance, Remote
@@ -164,19 +166,19 @@ projects:
         tagline: "An enterprise SEO tool providing keyword and topic research, competitive insights, and much more."
 
       - title: Moz
-        link: "www.moz.com"
+        link: "https://www.moz.com"
         tagline: "An SEO tool providing keyword research and link building capabilities."
 
       - title: Google Ads
-        link: "#"
+        link: "https://www.google.com/ads"
         tagline: "Google Ads is the leading online advertising platform, providing search ads, display ads, retargeting, and more"
 
       - title: VWO & A/B Tasty
-        link: "www.vwo.com"
+        link: "https://www.vwo.com"
         tagline: "Powerful A/B testing tools to help you improve conversion rates on your website"
 
       - title: HubSpot
-        link: "www.hubspot.com"
+        link: "https://www.hubspot.com"
         tagline: "A full platform of marketing, sales, and customer success tools to help you grow your business"
 
       - title: Klaviyo
@@ -184,7 +186,7 @@ projects:
         tagline: "Powerful email and SMS marketing automation tools, built for ecommerce businesses of all sizes"
 
       - title: Salesforce
-        link: "www.salesforce.com"
+        link: "https://www.salesforce.com"
         tagline: "The world's leading CRM platform"
         
 publications:
