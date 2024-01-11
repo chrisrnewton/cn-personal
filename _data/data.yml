@@ -223,10 +223,10 @@ skills:
 
     toolset:
       - name: HTML5 & CSS
-        level: 98%
+        level: 95%
 
       - name: SEO
-        level: 98%
+        level: 100%
 
       - name: Javascript & jQuery
         level: 75%
@@ -241,10 +241,10 @@ skills:
         level: 85%
 
       - name: Conversion Rate Optimization & A/B Testing
-        level: 95%
+        level: 100%
 
       - name: Google Ads
-        level: 60%
+        level: 100%
 
       - name: HubSpot
         level: 100%
