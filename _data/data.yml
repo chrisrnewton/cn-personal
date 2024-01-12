@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@christophernewton.com
+    email: chris@figdigitalmarketing.com
     phone:
     website: christophernewton.com #do not add http://
     linkedin: cnewton25
@@ -22,7 +22,7 @@ sidebar:
     twitter: '@ChrisRNewton'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: 112353211-chris
+    goodreads:
 
     languages:
       - idiom: English
@@ -37,17 +37,20 @@ sidebar:
 
       - item: Cooking
         link:
+        
+      - item: Golfing
+        link:
 
 career-profile:
     title: Summary of Qualifications
     summary: |
       I have several years of experience in digital marketing including:
-        - 7+ years of experience in tech / SaaS
-        - 8+ years of SEO experience
-        - 8+ years digital marketing experience
+        - 10+ years of experience in tech / SaaS
+        - 10+ years of SEO experience
+        - 10+ years digital marketing experience
         - Expert level knowledge of SEO best practices, strategies, and tactics, along with SEO Audits, keyword research, competitive research, and content gap analysis
         - Intermediate programming experience, including HTML, CSS, Javascript, Ruby, Python, and React Native
-        - Extensive experience using Salesforce CRM
+        - Extensive experience using HubSpot, Salesforce CRM, and more
         - Demonstrated talent for identifying, scrutinizing, improving, and streamlining complex work processes through highly analytical thinking and analysis
         - Creative and tenacious problem solver
 education:
@@ -86,7 +89,7 @@ education:
           - Bullet point
 experiences:
 
-    - role: Freelance SEO Consultant
+    - role: Freelance SEO & SEM Consultant
       time: 2012 - Present
       company: Freelance, Remote
       details: |
@@ -101,9 +104,38 @@ experiences:
           - Launch website A/B tests
           - Landing page creation
           - Development of interactive content tools including calculators, quizzes, and more
+          - Manage Google Ads, write ad copy, perform keyword research, provide budget recommendations, and implement conversion tracking
+    
+    - role: Head of Demand Generation
+      time: 2021 - 2023
+      company: Ketch, San Francisco, CA
+      details: |
+        Ketch is a privacy SaaS platform allowing customers to design and implement robust privacy programs and comply with privacy regulations globally.
+          - Spearheaded Ketch Free product-led growth program to 1,000+ signups in first 6 months
+          - Quadrupled inbound demo requests YoY, 20x Ketch free signups YoY, increased MQL’s by 10x YoY
+          - Managed $2m+ budget across all paid advertising, organic search, and demand-gen campaigns, generating $10m+ in pipeline and $3m+ in marketing sourced closed-won deals.
+          - Oversaw revenue operations for the company, working closely with sales on operational needs
+          - Designed and implemented robust lead scoring and nurturing programs
+          - Integrated HubSpot with Salesforce, setting up new processes, reporting, and pipeline management.
+          - Established marketing programs in EMEA and APAC
+          - Optimized and maximized ad spend, lowered CPL by 60% and Cost-per-Opportunity by 75%
+          
+
+    - role: Senior Marketing Manager
+      time: 2020 - 2021
+      company: Teikametrics, Boston, MA
+      details: |
+        Teikametrics is an Amazon & Walmart advertising optimization platform, allowing brands to grow faster and save time with fully automated campaign creation, keyword targeting, and more.
+          - Achieved a 90% YoY growth in MQLs and SQLs
+          - Implemented an always-on A/B testing function, increasing page-level conversion rates by 5-10%
+          - Revised nurture flows, increasing conversion rates from Lead -> MQL and MQL -> SQL
+          - Successfully implemented the company’s chatbot tool, improving lead gen and engagement by 30%
+          - Conducted full on-page, off-page, and technical SEO audit, identifying several areas for improvement
+          - Managed agency relationships and freelancers
+          - Developed robust lead scoring process to enable BDR’s to focus on quality leads.
 
     - role: Inbound Marketing Manager
-      time: 2018 - Present
+      time: 2018 - 2020
       company: Klaviyo, Boston, MA
       details: |
         Klaviyo is a marketing automation platform allowing customers to send highly targeted and personalized communication to their customers via SMS and email messages.
@@ -181,7 +213,7 @@ projects:
         tagline: "A full platform of marketing, sales, and customer success tools to help you grow your business"
 
       - title: Klaviyo
-        link: "#"
+        link: "https://www.klaviyo.com"
         tagline: "Powerful email and SMS marketing automation tools, built for ecommerce businesses of all sizes"
 
       - title: Salesforce
@@ -206,17 +238,14 @@ publications:
       - title: Google Ads Search Certification
         link: https://skillshop.exceedlms.com/student/award/43341677
         authors: Google
-        conference: Expires December 18, 2020
 
       - title: Google Analytics Individual Qualification Certification
         link: https://skillshop.exceedlms.com/student/award/43340096
         authors: Google
-        conference: Expires December 18, 2020
 
       - title: HubSpot Inbound Certification
         link:
         authors: HubSpot
-        conference: Expires July 23, 2021
 
 skills:
     title: Skills &amp; Proficiency
