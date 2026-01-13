@@ -1,0 +1,294 @@
+---
+title: "The Complete Technical SEO Audit Checklist for 2024"
+description: "A step-by-step technical SEO audit guide covering crawlability, indexation, Core Web Vitals, and site architecture—with actionable fixes for each issue."
+date: "2024-03-20"
+author: "Chris Newton"
+tags: ["SEO", "Technical SEO", "SEO Audit", "Site Performance"]
+published: true
+---
+
+After conducting dozens of technical SEO audits over 10+ years, I've developed a systematic approach that consistently uncovers issues and drives results. At Klaviyo, a technical audit helped improve page speed by 25%. Here's the complete checklist.
+
+## Why Technical SEO Matters
+
+You can have the best content in the world, but if search engines can't crawl, index, and understand your site, you won't rank. Technical SEO is the foundation.
+
+## The Audit Framework
+
+I break technical SEO audits into 6 areas:
+
+1. Crawlability
+2. Indexation
+3. Site Architecture
+4. Page Speed & Core Web Vitals
+5. Mobile Experience
+6. Security
+
+## 1. Crawlability
+
+Can search engines access your pages?
+
+### Robots.txt Check
+
+```
+yoursite.com/robots.txt
+```
+
+**Look for:**
+- Are important pages/directories blocked?
+- Is the sitemap referenced?
+- Are crawl-delay directives slowing bots?
+
+**Common issues:**
+- Staging site rules left on production
+- Blocking CSS/JS files (breaks rendering)
+- Blocking entire directories accidentally
+
+### XML Sitemap Audit
+
+**Check:**
+- Does sitemap exist at `/sitemap.xml`?
+- Are all important pages included?
+- Are non-canonical or noindex pages excluded?
+- Is sitemap under 50MB / 50,000 URLs?
+- Is it submitted in Google Search Console?
+
+### Crawl Budget
+
+For large sites (10k+ pages):
+
+- Check crawl stats in Search Console
+- Identify and fix redirect chains (3+ hops)
+- Remove/noindex thin or duplicate content
+- Fix broken internal links
+
+## 2. Indexation
+
+Are your pages appearing in search results?
+
+### Index Coverage
+
+In Google Search Console, check:
+
+- **Valid pages** - indexed and healthy
+- **Excluded pages** - why are they excluded?
+- **Errors** - server errors, redirect errors
+
+### Site Search Check
+
+```
+site:yoursite.com
+```
+
+**Look for:**
+- Approximate page count (match expectations?)
+- Duplicate content in results
+- Pages that shouldn't be indexed (admin, staging, test)
+- Missing pages that should be indexed
+
+### Canonical Tags
+
+Every page needs a canonical tag pointing to the preferred version:
+
+```html
+<link rel="canonical" href="https://yoursite.com/page/" />
+```
+
+**Check for:**
+- Missing canonical tags
+- Self-referencing canonicals (good)
+- Canonical pointing to different page (intentional?)
+- HTTP vs HTTPS mismatches
+- Trailing slash consistency
+
+### Meta Robots
+
+Review pages with:
+- `noindex` tags (intentional?)
+- `nofollow` tags (blocking link equity)
+- Multiple conflicting directives
+
+## 3. Site Architecture
+
+How is your site structured?
+
+### URL Structure
+
+**Best practices:**
+- Descriptive, keyword-rich URLs
+- Lowercase letters
+- Hyphens between words (not underscores)
+- Consistent trailing slashes
+- 2-3 folder levels max
+
+**Bad:** `/p?id=12345`
+**Good:** `/products/widget-name/`
+
+### Internal Linking
+
+- Important pages should be ≤3 clicks from homepage
+- Use descriptive anchor text
+- Fix orphan pages (no internal links pointing to them)
+- Distribute link equity to priority pages
+
+### Navigation
+
+- Primary nav links to key category pages
+- Breadcrumbs on all pages
+- Footer links to important pages
+- HTML sitemap for users
+
+### Pagination
+
+For paginated content:
+- Use `rel="next"` and `rel="prev"` (optional but helpful)
+- Self-referencing canonicals on each page
+- Or use "view all" page with canonical
+
+## 4. Page Speed & Core Web Vitals
+
+Speed is a ranking factor. Core Web Vitals matter.
+
+### Core Web Vitals
+
+| Metric | Good | Needs Improvement | Poor |
+|--------|------|-------------------|------|
+| **LCP** (Largest Contentful Paint) | ≤2.5s | 2.5-4s | >4s |
+| **INP** (Interaction to Next Paint) | ≤200ms | 200-500ms | >500ms |
+| **CLS** (Cumulative Layout Shift) | ≤0.1 | 0.1-0.25 | >0.25 |
+
+### Speed Audit Tools
+
+- **PageSpeed Insights** - Google's tool, shows CWV
+- **GTmetrix** - detailed waterfall analysis
+- **WebPageTest** - advanced testing options
+
+### Common Speed Issues
+
+**Images:**
+- Not compressed
+- Not lazy-loaded
+- Wrong format (use WebP)
+- Missing dimensions (causes CLS)
+
+**Code:**
+- Render-blocking CSS/JS
+- Too many HTTP requests
+- No minification
+- No caching headers
+
+**Server:**
+- Slow TTFB (time to first byte)
+- No CDN
+- No compression (gzip/brotli)
+
+### Quick Wins
+
+1. Compress and lazy-load images
+2. Enable browser caching
+3. Minify CSS and JavaScript
+4. Use a CDN
+5. Reduce third-party scripts
+
+## 5. Mobile Experience
+
+Google uses mobile-first indexing.
+
+### Mobile-Friendly Test
+
+Use Google's Mobile-Friendly Test tool:
+- Viewport configured correctly?
+- Text readable without zooming?
+- Tap targets sized properly?
+- No horizontal scrolling?
+
+### Responsive Design Check
+
+- Test on multiple screen sizes
+- Check for mobile-specific issues
+- Verify same content on mobile and desktop
+
+### Mobile Page Speed
+
+Mobile users often have slower connections:
+- Test on 3G/4G throttling
+- Prioritize above-the-fold content
+- Consider AMP for articles (optional)
+
+## 6. Security
+
+HTTPS is a ranking factor.
+
+### HTTPS Check
+
+- All pages on HTTPS?
+- HTTP redirects to HTTPS?
+- No mixed content warnings?
+- Valid SSL certificate?
+
+### Security Headers
+
+Recommended headers:
+- `Strict-Transport-Security`
+- `X-Content-Type-Options`
+- `X-Frame-Options`
+
+## The Audit Process
+
+### Step 1: Crawl the Site
+
+Use Screaming Frog, Sitebulb, or Ahrefs Site Audit:
+- Crawl entire site
+- Export all issues
+- Categorize by severity
+
+### Step 2: Check Search Console
+
+Review:
+- Index coverage report
+- Core Web Vitals report
+- Mobile usability report
+- Manual actions (penalties)
+
+### Step 3: Prioritize Issues
+
+**High priority (fix first):**
+- Blocking important pages from indexing
+- Broken pages (404s, 500s)
+- Security issues
+- Severe speed problems
+
+**Medium priority:**
+- Duplicate content
+- Missing meta tags
+- Redirect chains
+- Minor speed issues
+
+**Low priority:**
+- Missing alt text
+- Suboptimal URL structure
+- Minor mobile issues
+
+### Step 4: Create Action Plan
+
+For each issue:
+- What's the problem?
+- What's the impact?
+- How do we fix it?
+- Who's responsible?
+- When will it be done?
+
+### Step 5: Track Progress
+
+Re-crawl after fixes to verify:
+- Issues resolved
+- No new issues introduced
+- Rankings and traffic impact
+
+## Audit Frequency
+
+- **Full audit:** Quarterly
+- **Quick checks:** Monthly
+- **Monitoring:** Continuous (set up alerts)
+
+Technical SEO isn't a one-time project. It's ongoing maintenance that compounds over time.
