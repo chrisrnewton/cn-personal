@@ -50,6 +50,10 @@ export default function RootLayout({
             gtag('config', '${GA_ID}');
           `}
         </Script>
+        <Script
+          src="https://lytcdn.com/lyt.js?site=6e6efebfcb8f"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.className} bg-dark-900 text-light-100 min-h-screen`}>
         <Header />
