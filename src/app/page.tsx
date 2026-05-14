@@ -2,10 +2,9 @@ import {
   Hero,
   Summary,
   Experience,
+  Lytical,
   Education,
   Skills,
-  Tools,
-  Certifications,
   Contact,
 } from '@/components/sections';
 
@@ -15,10 +14,9 @@ export default function Home() {
       <Hero />
       <Summary />
       <Experience />
-      <Education />
+      <Lytical />
       <Skills />
-      <Tools />
-      <Certifications />
+      <Education />
       <Contact />
     </>
   );

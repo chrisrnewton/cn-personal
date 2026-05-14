@@ -1,6 +1,7 @@
 export { Hero } from './Hero';
 export { Summary } from './Summary';
 export { Experience } from './Experience';
+export { Lytical } from './Lytical';
 export { Education } from './Education';
 export { Skills } from './Skills';
 export { Tools } from './Tools';

@@ -19,6 +19,7 @@ export interface Experience {
   current: boolean;
   description: string;
   details: string[];
+  featured?: boolean;
 }
 
 export interface Education {

@@ -2,9 +2,10 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { ArrowDown, Mail, Linkedin, Github } from 'lucide-react';
+import { ArrowDown, Mail, Linkedin } from 'lucide-react';
 import { resumeData } from '@/data/resume';
 import { siteConfig } from '@/data/siteConfig';
+import { TopTalentBadge } from '@/components/TopTalentBadge';
 
 export function Hero() {
   return (
@@ -61,15 +62,24 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-xl md:text-2xl text-light-300 mb-8"
+              className="text-xl md:text-2xl text-light-300 mb-6"
             >
               {resumeData.profile.tagline}
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              className="text-light-200 text-base md:text-lg leading-relaxed mb-8 max-w-2xl"
+            >
+              Growth marketer who ships product. Founding member of the marketing team at Klaviyo, pre-Series B. Head of Demand Generation at Ketch (10x MQLs, $10M+ sourced pipeline, $3M+ closed-won). Director of Growth at Skedda (6,000+ free signups in six months, 20% CAC reduction). Currently building Lytical, a privacy-first analytics SaaS with an embedded AI assistant. Live on the ChatGPT app store and HubSpot marketplace.
             </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
               className="flex flex-wrap gap-4 justify-center md:justify-start"
             >
               <a
@@ -88,15 +98,15 @@ export function Hero() {
                 <Linkedin size={18} />
                 LinkedIn
               </a>
-              <a
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 border border-dark-600 text-light-100 rounded-lg hover:border-accent-primary hover:text-accent-primary transition-colors"
-              >
-                <Github size={18} />
-                GitHub
-              </a>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.75 }}
+              className="mt-8 flex justify-center md:justify-start"
+            >
+              <TopTalentBadge />
             </motion.div>
           </div>
         </div>

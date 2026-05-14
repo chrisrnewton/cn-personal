@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
+import { Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export function Footer() {
@@ -11,7 +11,6 @@ export function Footer() {
   const socialLinks = [
     { icon: Mail, href: `mailto:${siteConfig.links.email}`, label: 'Email' },
     { icon: Linkedin, href: siteConfig.links.linkedin, label: 'LinkedIn' },
-    { icon: Github, href: siteConfig.links.github, label: 'GitHub' },
     { icon: Twitter, href: siteConfig.links.twitter, label: 'Twitter' },
   ];
 

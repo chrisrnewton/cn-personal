@@ -1,18 +1,10 @@
 'use client';
 
-import { useState } from 'react';
-import { Briefcase, ChevronDown, ChevronUp, MapPin, Calendar } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Briefcase, MapPin, Calendar } from 'lucide-react';
 import { resumeData } from '@/data/resume';
 import { FadeIn } from '@/components/animations';
 
 export function Experience() {
-  const [expandedId, setExpandedId] = useState<string | null>(null);
-
-  const toggleExpand = (id: string) => {
-    setExpandedId(expandedId === id ? null : id);
-  };
-
   return (
     <section id="experience" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
@@ -34,18 +26,27 @@ export function Experience() {
               <FadeIn key={exp.id} delay={index * 0.1}>
                 <div className="relative pl-12 md:pl-20">
                   {/* Timeline dot */}
-                  <div className="absolute left-2 md:left-6 w-4 h-4 bg-accent-primary rounded-full border-4 border-dark-900" />
+                  <div
+                    className={`absolute left-2 md:left-6 w-4 h-4 rounded-full border-4 border-dark-900 ${
+                      exp.featured ? 'bg-accent-primary ring-2 ring-accent-primary/40' : 'bg-accent-primary'
+                    }`}
+                  />
 
                   <div
-                    className="bg-dark-800 rounded-xl border border-dark-600 overflow-hidden hover:border-accent-primary/50 transition-colors cursor-pointer"
-                    onClick={() => toggleExpand(exp.id)}
+                    className={`rounded-xl border overflow-hidden transition-colors ${
+                      exp.featured
+                        ? 'bg-dark-800 border-accent-primary/40 shadow-[0_0_0_1px_rgba(34,211,238,0.1)]'
+                        : 'bg-dark-800 border-dark-600'
+                    }`}
                   >
                     <div className="p-6">
                       <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
                         <h3 className="text-xl font-semibold text-light-100">{exp.role}</h3>
                         <div className="flex items-center gap-2 text-light-400 text-sm">
                           <Calendar size={14} />
-                          <span>{exp.startDate} - {exp.endDate}</span>
+                          <span>
+                            {exp.startDate} - {exp.endDate}
+                          </span>
                         </div>
                       </div>
 
@@ -57,51 +58,27 @@ export function Experience() {
                         </div>
                       </div>
 
-                      <p className="text-light-300 mb-4">{exp.description}</p>
-
-                      <button className="flex items-center gap-2 text-accent-primary hover:text-accent-hover transition-colors text-sm">
-                        {expandedId === exp.id ? (
-                          <>
-                            <span>Show less</span>
-                            <ChevronUp size={16} />
-                          </>
-                        ) : (
-                          <>
-                            <span>Show details</span>
-                            <ChevronDown size={16} />
-                          </>
-                        )}
-                      </button>
+                      <ul className="space-y-2">
+                        {exp.details.map((detail, i) => (
+                          <li key={i} className="flex items-start gap-3 text-light-200">
+                            <span className="text-accent-primary mt-1.5 text-xs">&#9679;</span>
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
-
-                    <AnimatePresence>
-                      {expandedId === exp.id && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.3 }}
-                          className="overflow-hidden"
-                        >
-                          <div className="px-6 pb-6 border-t border-dark-600 pt-4">
-                            <ul className="space-y-2">
-                              {exp.details.map((detail, i) => (
-                                <li key={i} className="flex items-start gap-3 text-light-300">
-                                  <span className="text-accent-primary mt-1.5 text-xs">&#9679;</span>
-                                  <span>{detail}</span>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
                   </div>
                 </div>
               </FadeIn>
             ))}
           </div>
         </div>
+
+        <FadeIn delay={0.2}>
+          <p className="mt-10 text-light-400 text-sm md:text-base text-center md:text-left md:pl-20">
+            Plus: independent consulting since 2009, alongside the FTE roles above.
+          </p>
+        </FadeIn>
       </div>
     </section>
   );

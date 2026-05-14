@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Chris Newton",
   title: "Chris Newton | Demand Generation & Growth Marketing Leader",
-  description: "Data-driven Demand Generation & Growth Marketing leader with 10+ years of B2B tech/SaaS experience. Expert in SEO, PLG, and driving significant growth at startups and scaleups.",
+  description: "Demand generation and growth marketing leader. Founding member of the marketing team at Klaviyo, $10M+ pipeline at Ketch, 6,000+ signups at Skedda. Currently building Lytical, an AI-native analytics SaaS. 15+ years across B2B SaaS.",
   url: "https://christophernewton.com",
   ogImage: "/images/og.jpg",
   links: {
